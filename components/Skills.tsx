@@ -1,5 +1,8 @@
+import { SkillInterface } from "./SingleSkill";
+
 export interface SkillsInterface {
   skillLevel: string;
+  technologiesList: SkillInterface[];
 }
 export const Skills: React.FC<SkillsInterface> = ({ skillLevel }) => {
   return (

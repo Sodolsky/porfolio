@@ -3,9 +3,15 @@ import { Picture } from "components/Picture";
 import { Skills, SkillsInterface } from "components/Skills";
 import Head from "next/head";
 const skillsArray: SkillsInterface[] = [
-  { skillLevel: "Well known and used in multiple of my projects" },
-  { skillLevel: "Know the basics but didn't use it that much" },
-  { skillLevel: "Want to learn" },
+  {
+    skillLevel: "Well known and used in multiple of my projects",
+    technologiesList: [],
+  },
+  {
+    skillLevel: "Know the basics but didn't use it that much",
+    technologiesList: [],
+  },
+  { skillLevel: "Want to learn", technologiesList: [] },
 ];
 export default function Home() {
   return (
